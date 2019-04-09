@@ -1,0 +1,16 @@
+# Created by pytest automatically.
+#python
+*.py[cod]
+*.so
+*.egg
+*.egg-info
+*/__pycache__
+.vscode
+
+#properties
+#TransationAutomation/Testcase/properties.xml
+#TransationAutomation/icetest/.idea
+
+#result
+pytest_project/report/*
+.idea
