@@ -72,7 +72,7 @@ pytest-xdist==1.24.0
 python-dateutil==2.7.5
 pytz==2018.7
 pywin32==224
-pyyaml==4.2b4
+pyyaml==5.4
 readme-renderer==24.0
 repoze.lru==0.7
 requests==2.20.0
