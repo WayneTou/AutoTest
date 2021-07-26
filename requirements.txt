@@ -61,7 +61,7 @@ pycryptodome==3.6.6
 pyflakes==1.5.0
 Pygments==2.2.0
 pyparsing==2.3.0
-pypiwin32==223
+# pypiwin32==223
 pysha3==1.0.2
 pytest==4.0.1
 pytest-forked==0.2
