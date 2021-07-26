@@ -37,7 +37,7 @@ imagesize==1.1.0
 ipython==7.1.1
 ipython-genutils==0.2.0
 jedi==0.13.1
-Jinja2==2.10
+Jinja2==2.11.3
 kiwisolver==1.0.1
 lru-dict==1.1.6
 # MarkupSafe==1.0
