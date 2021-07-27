@@ -12,5 +12,5 @@
 #TransationAutomation/icetest/.idea
 
 #result
-pytest_project/report/*
+# pytest_project/report/*
 .idea
