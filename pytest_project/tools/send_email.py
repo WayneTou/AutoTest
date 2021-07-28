@@ -10,12 +10,12 @@ def send_email(receive: list, subject, content, file_path, file_name):
 
     # 发送邮箱用户名密码
     user = "dou_wayneyuewei@126.com"
-    password = "SANVNFUEXYROVVKM"
+    password = "XXXXXX"
 
     # 发送和接收邮箱
     sender = "dou_wayneyuewei@126.com"
     receive = receive
-    # ['wdou@deloitte.com.cn', 'dou_wayneyuewei@126.com']
+    # ['dou_wayneyuewei@126.com']
 
     # 发送邮件主题和内容
     subject = subject
