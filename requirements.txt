@@ -35,3 +35,4 @@ typing-extensions==3.7.4.3
 urllib3==1.25.2
 wcwidth==0.1.7
 zipp==3.4.1
+pytz==2021.1
