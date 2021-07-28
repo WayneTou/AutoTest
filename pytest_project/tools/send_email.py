@@ -13,7 +13,7 @@ def send_email(file_path=r'C:\Workspace\AutoTest\pytest_project\report\autotest_
 
     # 发送和接收邮箱
     sender = "dyw2009@126.com"
-    receive = "dyw2009@126.com"
+    receive = "wdou@deloitte.com.cn"
 
     # 发送邮件主题和内容
     subject = "Web Selenium 自动化测试报告"
