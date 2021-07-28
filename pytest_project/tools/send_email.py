@@ -31,7 +31,7 @@ def send_email(file_path=r'C:\Workspace\AutoTest\pytest_project\report\autotest_
     msg['Subject'] = subject
     msg['From'] = sender
     msg['To'] = receive
-    msg.attach(att)
+    # msg.attach(att)
 
 
     # SSL协议端口号要使用465
