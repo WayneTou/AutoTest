@@ -23,11 +23,11 @@ if __name__ == '__main__':
     att_file_path = os.path.join(BASE_DIR, 'data', zip_file_name)
     shutil.make_archive(att_file_path, 'zip', db_folder)
 
-    receive = ['wdou@deloitte.com.cn', 'dou_wayneyuewei@126.com']
-    subject = 'Automation Test Execution %s' % subject_time
-    with open(os.path.join(BASE_DIR, r'tools/email_demo.html'), 'r', encoding='utf-8') as file:
-        content = file.read()
-    file_path = att_file_path+'.zip'
-    file_name = zip_file_name+'.zip'
-    send_email(receive, subject, content, file_path=file_path,
-               file_name=file_name)
+#     receive = ['wdou@deloitte.com.cn', 'dou_wayneyuewei@126.com']
+#     subject = 'Automation Test Execution %s' % subject_time
+#     with open(os.path.join(BASE_DIR, r'tools/email_demo.html'), 'r', encoding='utf-8') as file:
+#         content = file.read()
+#     file_path = att_file_path+'.zip'
+#     file_name = zip_file_name+'.zip'
+#     send_email(receive, subject, content, file_path=file_path,
+#                file_name=file_name)
