@@ -10,6 +10,7 @@ import pytz
 if __name__ == '__main__':
     pytest.main(['-v', '-s', os.path.join(BASE_DIR, r'testcase/test_demo/test_demo.py'),
                 '--html', os.path.join(BASE_DIR, r'report/autotest_report.html')])
+    # 1
     # send_email(r'/home/runner/work/AutoTest/AutoTest/pytest_project/report/autotest_report.html')
     tz = pytz.timezone('Asia/Shanghai')
     subject_time = datetime.datetime.now(tz).strftime(r"%Y-%m-%d %H:%M")
